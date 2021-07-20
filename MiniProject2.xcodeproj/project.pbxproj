@@ -16,6 +16,9 @@
 		AAB00F6026A116DE00D3366E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB00F5E26A116DE00D3366E /* LaunchScreen.storyboard */; };
 		AAB00F6B26A116DE00D3366E /* MiniProject2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00F6A26A116DE00D3366E /* MiniProject2Tests.swift */; };
 		AAB00F7626A116DF00D3366E /* MiniProject2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00F7526A116DF00D3366E /* MiniProject2UITests.swift */; };
+		AAB00F8426A1184C00D3366E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00F8326A1184C00D3366E /* ViewController2.swift */; };
+		AAB00F8A26A1244400D3366E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00F8926A1244400D3366E /* ViewController3.swift */; };
+		AAB00F8C26A1253E00D3366E /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00F8B26A1253E00D3366E /* ViewController4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		AAB00F7126A116DE00D3366E /* MiniProject2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniProject2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB00F7526A116DF00D3366E /* MiniProject2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProject2UITests.swift; sourceTree = "<group>"; };
 		AAB00F7726A116DF00D3366E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB00F8326A1184C00D3366E /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		AAB00F8926A1244400D3366E /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		AAB00F8B26A1253E00D3366E /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		AAB00F4426A116DC00D3366E = {
 			isa = PBXGroup;
 			children = (
+				AAB00F8B26A1253E00D3366E /* ViewController4.swift */,
 				AAB00F4F26A116DC00D3366E /* MiniProject2 */,
 				AAB00F6926A116DE00D3366E /* MiniProject2Tests */,
 				AAB00F7426A116DF00D3366E /* MiniProject2UITests */,
@@ -105,6 +112,8 @@
 				AAB00F5226A116DC00D3366E /* SceneDelegate.swift */,
 				AAB00F5426A116DC00D3366E /* ViewController.swift */,
 				AAB00F5626A116DC00D3366E /* Main.storyboard */,
+				AAB00F8326A1184C00D3366E /* ViewController2.swift */,
+				AAB00F8926A1244400D3366E /* ViewController3.swift */,
 				AAB00F5C26A116DE00D3366E /* Assets.xcassets */,
 				AAB00F5E26A116DE00D3366E /* LaunchScreen.storyboard */,
 				AAB00F6126A116DE00D3366E /* Info.plist */,
@@ -261,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB00F8426A1184C00D3366E /* ViewController2.swift in Sources */,
+				AAB00F8C26A1253E00D3366E /* ViewController4.swift in Sources */,
 				AAB00F5526A116DC00D3366E /* ViewController.swift in Sources */,
+				AAB00F8A26A1244400D3366E /* ViewController3.swift in Sources */,
 				AAB00F5126A116DC00D3366E /* AppDelegate.swift in Sources */,
 				AAB00F5326A116DC00D3366E /* SceneDelegate.swift in Sources */,
 				AAB00F5B26A116DC00D3366E /* MiniProject2.xcdatamodeld in Sources */,
@@ -441,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z6QFF8J72;
 				INFOPLIST_FILE = MiniProject2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z6QFF8J72;
 				INFOPLIST_FILE = MiniProject2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
